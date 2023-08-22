@@ -2,9 +2,8 @@ package semana20;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.naming.NamingEnumeration;
 
-    class questao {
+    abstract class questao {
         private int numero;
         private String enunciado;
 

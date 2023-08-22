@@ -2,7 +2,7 @@ package semana20;
 
 import java.util.List;
 
-class questaoMultiEscolha extends questao {
+public class questaoMultiEscolha extends questao {
     
     private List<String> opcoes;
     private List<Integer> opcoesRespostas;

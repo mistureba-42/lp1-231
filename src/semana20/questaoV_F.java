@@ -1,6 +1,6 @@
 package semana20;
 
-class questaoV_F extends questao {
+public class questaoV_F extends questao {
 
     private boolean resposta;
 

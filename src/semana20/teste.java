@@ -8,19 +8,19 @@ public class teste {
 
         questaoV_F qVF = new questaoV_F(1, "Java é uma linguagem de programação.", true);
         
-        List<String> scOpcoes = new ArrayList<>();
-        scOpcoes.add("A) Verdadeiro");
-        scOpcoes.add("B) Falso");
-        questao1Escolha q1E = new questao1Escolha(2, "Qual das opções abaixo é verdadeira?", scOpcoes, 0);
+        List<String> q1Eopcoes = new ArrayList<>();
+        q1Eopcoes.add("A) Verdadeiro");
+        q1Eopcoes.add("B) Falso");
+        questao1Escolha q1E = new questao1Escolha(2, "Qual das opções abaixo é verdadeira?", q1Eopcoes, 0);
 
-        List<String> mcOpcoes = new ArrayList<>();
-        mcOpcoes.add("A) Opção A");
-        mcOpcoes.add("B) Opção B");
-        mcOpcoes.add("C) Opção C");
-        List<Integer> mcCorrectIndices = new ArrayList<>();
-        mcCorrectIndices.add(0);
-        mcCorrectIndices.add(2);
-        questaoMultiEscolha qME = new questaoMultiEscolha(3, "Selecione as opções corretas:", mcOpcoes, mcCorrectIndices);
+        List<String> qMEOpcoes = new ArrayList<>();
+        qMEOpcoes.add("A) Opção A");
+        qMEOpcoes.add("B) Opção B");
+        qMEOpcoes.add("C) Opção C");
+        List<Integer> qMEOpcoesRespostas = new ArrayList<>();
+        qMEOpcoesRespostas.add(0);
+        qMEOpcoesRespostas.add(2);
+        questaoMultiEscolha qME = new questaoMultiEscolha(3, "Selecione as opções corretas:", qMEOpcoes, qMEOpcoesRespostas);
 
         prova prova = new prova();
         prova.addQuestao(qVF);
