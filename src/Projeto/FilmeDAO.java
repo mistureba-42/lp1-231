@@ -6,7 +6,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class filmeDAO{
+public class FilmeDAO{
 
     public Filme create(Filme filme) throws SQLException{
         String sql = "INSERT INTO filme (id, titulo, duracao, genero, classificacaoInd, sinopse)
